@@ -31,7 +31,7 @@
                     <label>Phone</label>
                     <input ng-model="vm.phoneNumber"/>
                 </div>
-                <button type="submit">Add Contact</button>
+                <button ng-click="vm.addContact($index)">Add Contact</button>
             </form>
         </div>
     </div>
